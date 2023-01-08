@@ -24,8 +24,6 @@ body {
     margin-left: 15px;
     margin-right: 0;
     padding: 15px, 25px;
-
-
 }
 
 .text h1 {
@@ -165,7 +163,7 @@ body {
 }
 
 .button-call {
-    background:#ffffff; 
+    background: #ffffff;
     color: #FD6E0A;
     font-size: 17px;
     position: absolute;
@@ -177,4 +175,38 @@ body {
     padding-bottom: 10px;
     padding-right: 10px;
 
+}
+
+.contact {
+    display: flex;
+    gap: 600px;
+    background: rgb(5, 5, 5);
+    padding: 200px;
+
+}
+
+.future-title {
+    color: #ffffff;
+}
+
+.subscribe-title {
+    color: white;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.sec-des {
+    font-size: 10px;
+    color: white;
+}
+
+.btn-sub {
+    margin: 25px;
+    height: 30px;
+    background: #FD6E0A;
+    color: #ffffff;
+    font-size: 15px;
+    border-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
 }
