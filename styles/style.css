@@ -3,7 +3,7 @@ body {
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
-width: auto;
+    width: auto;
     height: 0;
     font-size: 20px;
 }
@@ -13,7 +13,7 @@ width: auto;
     position: relative;
 }
 
-.image img{
+.image img {
     width: 100%;
 }
 
@@ -74,22 +74,17 @@ width: auto;
     width: 80%;
     height: 80%;
     align-content: center;
-
-
 }
 
 .plan-title {
     text-align: center;
-
-
 }
 
 .plan-container {
     display: flex;
+    justify-content: center;
     gap: 86px;
     border-style: none;
-
-
 }
 
 .skill-title {
@@ -103,7 +98,6 @@ width: auto;
 }
 
 .gallary {
-
     margin: 50px;
     float: left;
     width: 390px;
@@ -113,14 +107,12 @@ width: auto;
 .gallary img {
     width: 80px;
     height: 80px;
-
 }
 
 .plan-header {
     display: flex;
     width: 0;
     padding: 5px;
-
 }
 
 .header-pln {
@@ -132,5 +124,57 @@ width: auto;
 .plan-img {
 
     padding: 10px;
+}
+
+.parent {
+    margin-top: 50px;
+    margin-left: 280px;
+    position: relative;
+    top: 20;
+    left: 20;
+}
+
+.image1 {
+    position: relative;
+    top: 20;
+    left: 20;
+}
+
+.image2 {
+    position: absolute;
+    top: 20;
+    left: 20;
+}
+
+.container2 {
+    margin-left: 250px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.bottom-left {
+    color: #ffffff;
+    font-size: 40px;
+    bottom: 0px;
+    right: 700px;
+    position: absolute;
+    top: 10px;
+    padding-left: 50px;
+    padding-right: 45px;
+
+}
+
+.button-call {
+    background:#ffffff; 
+    color: #FD6E0A;
+    font-size: 17px;
+    position: absolute;
+    top: 60%;
+    border-style: none;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 
 }
