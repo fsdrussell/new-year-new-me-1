@@ -1,7 +1,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+width: auto;
     height: 0;
+    font-size: 20px;
 }
 
 .image {
@@ -9,8 +13,8 @@ body {
     position: relative;
 }
 
-.image img {
-    max-width: 100%;
+.image img{
+    width: 100%;
 }
 
 .text {
@@ -44,11 +48,10 @@ body {
 
 .btn-primary {
     height: 30px;
-    border-radius: 15px;
     background: #FD6E0A;
     color: #ffffff;
     font-size: 12px;
-    border: 0;
+    border-style: none;
     padding-left: 5px;
     margin-left: 36%;
 }
@@ -65,18 +68,43 @@ body {
 
 /*-----plan------*/
 
-.plan {
-    margin-top: 50px;
-    display: flex;
-    max-width: 100%;
-    overflow: auto;
+.my-plan {
+    margin-top: 150px;
+    margin-left: 220px;
+    width: 80%;
+    height: 80%;
+    align-content: center;
+
 
 }
 
-.gallary {
+.plan-title {
+    text-align: center;
+
+
+}
+
+.plan-container {
+    display: flex;
+    gap: 86px;
     border-style: none;
-    margin: 5px;
-    border: 1px solid;
+
+
+}
+
+.skill-title {
+    font-weight: 700px;
+    font-size: 20px;
+
+}
+
+.skill-description {
+    color: #737272;
+}
+
+.gallary {
+
+    margin: 50px;
     float: left;
     width: 390px;
     padding: 100px, 2px;
@@ -92,6 +120,7 @@ body {
     display: flex;
     width: 0;
     padding: 5px;
+
 }
 
 .header-pln {
@@ -101,7 +130,7 @@ body {
 }
 
 .plan-img {
-    border-style: none;
+
     padding: 10px;
 
 }
